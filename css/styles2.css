@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #0f0f0f, #1a1a1a);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #ffcc00;
+}
+
+/* Secciones de contenido */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Títulos */
+h2 {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #0f0f0f, #1a1a1a);
+    margin-top: 50px;
+}
